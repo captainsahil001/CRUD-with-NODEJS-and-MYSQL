@@ -1,0 +1,20 @@
+{
+  "name": "backend-with-database",
+  "version": "1.0.0",
+  "description": "crud nodejs sql app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "author": "sahil",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
